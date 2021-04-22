@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小米官网</title>
+
+
+    <style>
+        body {
+            overflow: auto;
+        }
+        /* 第一部分 */
+        
+        li {
+            list-style: none;
+        }
+        
+        .w {
+            width: 1305px;
+            margin: auto;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #dee0e4;
+        }
+        
+        .wb {
+            background-color: #ffffff;
+        }
+        
+        .wbyi {
+            background-color: #dee1e6;
+        }
+        
+        .tou {
+            background-color: black;
+            height: 50px;
+            overflow: hidden;
+        }
+        
+        .touyi {
+            height: 26px;
+            width: 1300px;
+            margin-top: 12px;
+            margin-bottom: 12px;
+        }
+        
+        .touyi:hover .z {
+            display: block;
+        }
+        
+        .tousan {
+            float: left;
+            margin-right: 150px;
+        }
+        
+        .tousan ul li a {
+            font-size: 14px;
+        }
+        
+        .tousan ul li {
+            float: left;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-left: 1px solid #dee0e4;
+        }
+        
+        .tousan ul li:hover {
+            background-color: #ff6700;
+        }
+        
+        .tousi {
+            float: left;
+        }
+        
+        .tousi ul li a {
+            font-size: 14px;
+        }
+        
+        .tousi ul li {
+            float: left;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        
+        .tousi li:hover {
+            background-color: #ff6700;
+        }
+        
+        .touwu {
+            float: right;
+        }
+        
+        .touwu p {
+            font-size: 18px;
+            padding-bottom: 15px;
+        }
+        
+        .touwu img {
+            vertical-align: middle;
+        }
+        /* 头部结束 */
+        /* 第二部分开始 */
+        
+        .dier {
+            height: 50px;
+        }
+        
+        .dier .dieryi {
+            padding-top: 13px;
+            float: left;
+            margin-right: 150px;
+        }
+        
+        .dierdr {
+            float: left;
+        }
+        
+        .dier ul li a {
+            font-size: 16px;
+            color: lightslategray;
+        }
+        
+        .dier ul li {
+            float: left;
+            padding-top: 13px;
+            margin-left: 20px;
+        }
+        
+        .dierer ul li a:hover {
+            color: #ff6700;
+        }
+        
+        .dierer ul .z .z1 .diersan {
+            padding-top: 14px;
+        }
+        
+        .dierer ul .z .z1:hover .z3 {
+            position: absolute;
+            top: 80px;
+            left: 100px;
+            display: block;
+        }
+        
+        .diersan .diersanyi {
+            float: left;
+            margin-left: 288px;
+            width: 180px;
+            height: 14px;
+        }
+        
+        .diersan .diersaner {
+            float: left;
+            float: left;
+            width: 40px;
+            height: 18px;
+            font-size: 8px;
+            border-collapse: collapse;
+        }
+        /* 第二部分结束 */
+        /* disanbufen */
+        
+        .disan {
+            height: 348px;
+        }
+        
+        .disanyi {
+            float: left;
+        }
+        
+        .disanyi a {
+            display: block;
+            background-color: #a5999d;
+            width: 300px;
+            height: 50px;
+            text-decoration: none;
+            color: #faf9fa;
+            text-indent: 2em;
+            line-height: 47px;
+            font-size: 16px;
+        }
+        
+        .disanyi a span {
+            float: right;
+            margin-right: 10px;
+        }
+        
+        .disanyi a:hover {
+            background-color: #ff6700;
+        }
+        
+        .disaner {
+            float: left;
+        }
+        /* 第三部分结束 */
+        /* 第四部分开始 */
+        
+        .disi {
+            overflow: hidden;
+            clear: both;
+        }
+        
+        .disiyi {
+            float: left;
+            width: 300px;
+            height: 200px;
+            margin-left: 35px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background-color: mediumaquamarine;
+        }
+        
+        .disiyiyi {
+            position: relative;
+            background-color: #5f5750;
+        }
+        
+        .disituyi {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        
+        .disituyi:hover {
+            background-color: lime;
+        }
+        
+        .disituyiyi {
+            position: absolute;
+            top: 80px;
+            left: 10px;
+        }
+        
+        .disituyiyi:hover {
+            color: springgreen;
+        }
+        /* 二 */
+        
+        .disituer {
+            position: absolute;
+            top: 10px;
+            left: 118px;
+        }
+        
+        .disituer:hover {
+            background-color: lime;
+        }
+        
+        .disituyier {
+            position: absolute;
+            top: 80px;
+            left: 118px;
+        }
+        
+        .disituyier:hover {
+            color: springgreen;
+        }
+        /* }三 */
+        
+        .disitusan {
+            position: absolute;
+            top: 10px;
+            left: 220px;
+        }
+        
+        .disitusan:hover {
+            background-color: lime;
+        }
+        
+        .disituyisan {
+            position: absolute;
+            top: 80px;
+            left: 220px;
+        }
+        
+        .disituyisan:hover {
+            color: springgreen;
+        }
+        /* 四 */
+        
+        .disitusi {
+            position: absolute;
+            top: 108px;
+            left: 7px;
+        }
+        
+        .disitusi:hover {
+            background-color: peru;
+        }
+        
+        .disituyisi {
+            position: absolute;
+            bottom: 0px;
+            left: 15px;
+        }
+        
+        .disituyisi:hover {
+            color: rgb(252, 232, 21);
+        }
+        /* 五 */
+        
+        .disituwu {
+            position: absolute;
+            top: 112px;
+            left: 108px;
+        }
+        
+        .disituwu:hover {
+            background-color: peru;
+        }
+        
+        .disituyiwu {
+            position: absolute;
+            bottom: 0px;
+            left: 111px;
+        }
+        
+        .disituyiwu:hover {
+            color: rgb(252, 232, 21);
+        }
+        /* 六 */
+        
+        .disituliu {
+            position: absolute;
+            top: 114px;
+            left: 220px;
+        }
+        
+        .disituliu :hover {
+            background-color: peru;
+        }
+        
+        .disituyiliu {
+            position: absolute;
+            bottom: 0px;
+            left: 217px;
+        }
+        
+        .disituyiliu:hover {
+            color: rgb(252, 232, 21);
+        }
+        
+        .disijieshu {
+            clear: both;
+        }
+        /* }第四大部分结束 */
+        /* 第五大部分 */
+        
+        .diwu {
+            overflow: hidden;
+            margin-bottom: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 5px;
+            font-size: 30px;
+            font-style: italic;
+            font-weight: 400;
+            font-family: "Segoe Script "
+        }
+        
+        .diwu img {}
+        
+        .disisi {
+            clear: both;
+        }
+        /* 第六部分 */
+        
+        .diliu {
+            overflow: hidden;
+        }
+        
+        .diliu li {
+            width: 240px;
+            height: 350px;
+            background-color: chartreuse;
+            margin-left: 26px;
+            float: left;
+        }
+        
+        .diliutou {
+            position: relative;
+        }
+        
+        .diliuyi {
+            width: 240px;
+            height: 399px;
+            border-top: 1px solid red;
+            background-color: #f1eded;
+            position: relative;
+        }
+        
+        .diliuziyi {
+            position: absolute;
+            font-size: 20px;
+            font-weight: 700;
+            top: 60px;
+            left: 80px;
+        }
+        
+        .diliuzier {
+            position: absolute;
+            top: 120px;
+            left: 93px;
+        }
+        
+        .diliuzisan {
+            position: absolute;
+            font-size: 20px;
+            font-weight: 700;
+            top: 220px;
+            left: 60px;
+        }
+        
+        .diliuzisi {
+            position: absolute;
+            font-size: 40px;
+            font-weight: 700;
+            bottom: 55px;
+            left: 30px;
+        }
+        
+        .diliuer {
+            width: 240px;
+            height: 399px;
+            border-top: 1px solid red;
+            background-color: #fafafa;
+            position: relative;
+        }
+        
+        .diliutuyi {
+            position: absolute;
+            right: 0px;
+        }
+        
+        .diliuziwu {
+            position: absolute;
+            font-size: 15px;
+            font-weight: 400;
+            bottom: 105px;
+            left: 27px;
+        }
+        
+        .diliuziliu {
+            position: absolute;
+            font-size: 13px;
+            bottom: 65px;
+            left: 85px;
+            color: rgb(252, 232, 21);
+        }
+        /* 第六部分结束 */
+        /* 第七部分开始 */
+        
+        .diqi {
+            margin-top: 15px;
+            margin-bottom: 25px;
+            padding-bottom: 12px;
+        }
+        
+        .z3 {
+            width: 1320px;
+            height: 300px;
+            background-color: rgb(255, 255, 255, .5);
+            position: relative;
+            display: none;
+        }
+        
+        .z4 {
+            width: 150px;
+            height: 230px;
+            background-color: rgb(255, 255, 255, .5);
+            position: relative;
+            top: 20px;
+            left: 42px;
+            float: left;
+        }
+        
+        .z4 img {
+            position: absolute;
+            left: -25px;
+            top: 20px;
+        }
+        
+        .z41 {
+            position: absolute;
+            top: 170px;
+            left: 23px;
+        }
+        
+        .z42 {
+            position: absolute;
+            top: 195px;
+            left: 42px;
+        }
+        
+        .z5 {
+            width: 150px;
+            height: 230px;
+            background-color: rgb(255, 255, 255, .5);
+            position: relative;
+            top: 20px;
+            left: 50px;
+            float: left;
+            margin-left: 100px;
+        }
+        
+        .z5 img {
+            position: absolute;
+            left: -25px;
+            top: 20px;
+        }
+        
+        .z51 {
+            position: absolute;
+            top: 170px;
+            left: 23px;
+        }
+        
+        .z52 {
+            position: absolute;
+            top: 195px;
+            left: 42px;
+        }
+        
+        .z6 {
+            width: 150px;
+            height: 230px;
+            background-color: rgb(255, 255, 255, .5);
+            position: relative;
+            top: 20px;
+            left: 50px;
+            float: left;
+            margin-left: 100px;
+        }
+        
+        .z6 img {
+            position: absolute;
+            left: -25px;
+            top: 20px;
+        }
+        
+        .z61 {
+            position: absolute;
+            top: 170px;
+            left: 23px;
+        }
+        
+        .z62 {
+            position: absolute;
+            top: 195px;
+            left: 42px;
+        }
+        
+        .z7 {
+            width: 150px;
+            height: 230px;
+            background-color: rgb(255, 255, 255, .5);
+            position: relative;
+            top: 20px;
+            left: 50px;
+            float: left;
+            margin-left: 100px;
+        }
+        
+        .z7 img {
+            position: absolute;
+            left: -25px;
+            top: 20px;
+        }
+        
+        .z71 {
+            position: absolute;
+            top: 170px;
+            left: 23px;
+        }
+        
+        .z72 {
+            position: absolute;
+            top: 195px;
+            left: 42px;
+        }
+        
+        .z8 {
+            width: 150px;
+            height: 230px;
+            background-color: rgb(255, 255, 255, .5);
+            position: relative;
+            top: 20px;
+            left: 50px;
+            float: left;
+            margin-left: 100px;
+        }
+        
+        .z8 img {
+            position: absolute;
+            left: -25px;
+            top: 20px;
+        }
+        
+        .z81 {
+            position: absolute;
+            top: 170px;
+            left: 23px;
+        }
+        
+        .z82 {
+            position: absolute;
+            top: 195px;
+            left: 42px;
+        }
+        
+        .z9 {
+            width: 150px;
+            height: 230px;
+            background-color: rgb(255, 255, 255, .5);
+            position: relative;
+            top: 20px;
+            left: 50px;
+            float: left;
+            margin-left: 100px;
+        }
+        
+        .z9 img {
+            position: absolute;
+            left: -25px;
+            top: 20px;
+        }
+        
+        .z91 {
+            position: absolute;
+            top: 170px;
+            left: 23px;
+        }
+        
+        .z92 {
+            position: absolute;
+            top: 195px;
+            left: 42px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 头部 -->
+    <div class="tou">
+        <div class="w touyi">
+            <div class="tousan">
+                <ul>
+                    <li class="nihao" style="border-left: 0;"><a href="#">小米商城</a></li>
+                    <li><a href="#"> MIUI</a></li>
+                    <li><a href="#"> IoT </a></li>
+                    <li><a href="#">云服务</a></li>
+                    <li><a href="#">金融</a></li>
+                    <li><a href="#">有品 </a></li>
+                    <li><a href="#">小爱开放平台 </a></li>
+                    <li><a href="#">企业团购</a></li>
+                    <li><a href="#">资质证照</a></li>
+                    <li><a href="#">协议规则 </a></li>
+                    <li><a href="#">下载app </a></li>
+                    <li><a href="#">Select Location</a></li>
+                </ul>
+            </div>
+
+            <div class="tousi">
+                <ul>
+                    <li class="nihao" style="border-right: 0;"><a href="#">消息通知</a></li>
+                    <li><a href="#">注册 </a></li>
+                    <li><a href="#">登录</a></li>
+                </ul>
+            </div>
+            <div class="touwu">
+                <p>
+                    <a href="http://www.taobao.com"><img src="../img/gouwuche.jpg" width="30px"> 购物车</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- dierbufen -->
+    <div class="w wb">
+        <div class=" w dier">
+            <div class=dieryi>
+                <img src="../img/mi.jpg" width="24px">
+            </div>
+            <div class="dierer">
+                <ul>
+                    <li class="z"><a href="" class="z1">小米手机
+                        <div class = "z3">
+                        <div class = "z4"><img src="../img/0001.jpg" alt=""><span class = "z41">小米手机青春版</span><span class="z42">&yen2999元</span></div>
+                        <div class = "z5"><img src="../img/0002.jpg" alt=""><span class = "z51">小米手机青春版</span><span class="z52">&yen2999元</span></div>
+                        <div class = "z6"><img src="../img/0001.jpg" alt=""><span class = "z61">小米手机青春版</span><span class="z62">&yen2999元</span></div>
+                        <div class = "z7"><img src="../img/0002.jpg" alt=""><span class = "z71">小米手机青春版</span><span class="z72">&yen2999元</span></div>
+                         <div class = "z8"><img src="../img/0001.jpg" alt=""><span class = "z81">小米手机青春版</span><span class="z82">&yen2999元</span></div>
+                       
+                
+               
+                        </div>
+                    </a></li>
+                    <li class="z"><a href="" class="z1">Redmi 红米
+                        <div class = "z3">
+                        <div class = "z4"><img src="../img/0003.jpg" alt=""><span class = "z41">小米手机青春版</span><span class="z42">&yen2999元</span></div>
+                        <div class = "z5"><img src="../img/0004.jpg" alt=""><span class = "z51">小米手机青春版</span><span class="z52">&yen2999元</span></div>
+                        <div class = "z6"><img src="../img/0005.jpg" alt=""><span class = "z61">小米手机青春版</span><span class="z62">&yen2999元</span></div>
+                        <div class = "z7"><img src="../img/0006.jpg" alt=""><span class = "z71">小米手机青春版</span><span class="z72">&yen2999元</span></div>
+                         <div class = "z8"><img src="../img/0003.jpg" alt=""><span class = "z81">小米手机青春版</span><span class="z82">&yen2999元</span></div>
+                       
+                
+               
+                        </div></a></li>
+                    <li class="z"><a href="" class="z1">电视
+                            <div class = "z3">
+                                <div class = "z4"><img src="../img/0007.jpg" alt=""><span class = "z41">小米电视青春版</span><span class="z42">&yen2999元</span></div>
+                                <div class = "z5"><img src="../img/0007.jpg" alt=""><span class = "z51">小米电视青春版</span><span class="z52">&yen2999元</span></div>
+                                <div class = "z6"><img src="../img/0007.jpg" alt=""><span class = "z61">小米电视青春版</span><span class="z62">&yen2999元</span></div>
+                                <div class = "z7"><img src="../img/0007.jpg" alt=""><span class = "z71">小米电视青春版</span><span class="z72">&yen2999元</span></div>
+                                 <div class = "z8"><img src="../img/0007.jpg" alt=""><span class = "z81">小米电视青春版</span><span class="z82">&yen2999元</span></div>
+                               
+                       
+                                </div></a></li>
+                    <li class="z"><a href="" class="z1">笔记本
+                                    <div class = "z3">
+                                        <div class = "z4"><img src="../img/0008.jpg" alt=""><span class = "z41">小米电脑青春版</span><span class="z42">&yen2999元</span></div>
+                                        <div class = "z5"><img src="../img/0008.jpg" alt=""><span class = "z51">小米电脑青春版</span><span class="z52">&yen2999元</span></div>
+                                        <div class = "z6"><img src="../img/0008.jpg" alt=""><span class = "z61">小米电脑青春版</span><span class="z62">&yen2999元</span></div>
+                                        <div class = "z7"><img src="../img/0008.jpg" alt=""><span class = "z71">小米电脑青春版</span><span class="z72">&yen2999元</span></div>
+                                         <div class = "z8"><img src="../img/0008.jpg" alt=""><span class = "z81">小米电脑青春版</span><span class="z82">&yen2999元</span></div>
+                                       
+                               
+                                        </div></a></li>
+                    </a>
+                    </li>
+                    <li class="z"><a href="" class="z1">家电
+                                    <div class = "z3">
+                                        <div class = "z4"><img src="../img/0009.jpg" alt=""><span class = "z41">小米家电青春版</span><span class="z42">&yen2999元</span></div>
+                                        <div class = "z5"><img src="../img/0009.jpg" alt=""><span class = "z51">小米家电青春版</span><span class="z52">&yen2999元</span></div>
+                                        <div class = "z6"><img src="../img/0009.jpg" alt=""><span class = "z61">小米家电青春版</span><span class="z62">&yen2999元</span></div>
+                                        <div class = "z7"><img src="../img/0009.jpg" alt=""><span class = "z71">小米家电青春版</span><span class="z72">&yen2999元</span></div>
+                                         <div class = "z8"><img src="../img/0009.jpg" alt=""><span class = "z81">小米家电青春版</span><span class="z82">&yen2999元</span></div>
+                                       
+                               
+                                        </div></a></li>
+                    </a>
+                    </li>
+                    <li class="z"><a href="" class="z1">路由器
+                                    <div class = "z3">
+                                        <div class = "z4"><img src="../img/00010.jpg" alt=""><span class = "z41">小米路由器青春版</span><span class="z42">&yen2999元</span></div>
+                                        <div class = "z5"><img src="../img/00010.jpg" alt=""><span class = "z51">小米电脑青春版</span><span class="z52">&yen2999元</span></div>
+                                        <div class = "z6"><img src="../img/00010.jpg" alt=""><span class = "z61">小米电脑青春版</span><span class="z62">&yen2999元</span></div>
+                                        <div class = "z7"><img src="../img/00010.jpg" alt=""><span class = "z71">小米电脑青春版</span><span class="z72">&yen2999元</span></div>
+                                         <div class = "z8"><img src="../img/00010.jpg" alt=""><span class = "z81">小米电脑青春版</span><span class="z82">&yen2999元</span></div>
+                                       
+                               
+                                        </div></a></li>
+                    </a>
+                    </li>
+                    <li class="z"><a href="" class="z1">智能硬件
+                                    <div class = "z3">
+                                        <div class = "z4"><img src="../img/00011.jpg" alt=""><span class = "z41">小米智能硬件</span><span class="z42">&yen2999元</span></div>
+                                        <div class = "z5"><img src="../img/00011.jpg" alt=""><span class = "z51">小米智能硬件</span><span class="z52">&yen2999元</span></div>
+                                        <div class = "z6"><img src="../img/00011.jpg" alt=""><span class = "z61">小米智能硬件</span><span class="z62">&yen2999元</span></div>
+                                        <div class = "z7"><img src="../img/00011.jpg" alt=""><span class = "z71">小米智能硬件</span><span class="z72">&yen2999元</span></div>
+                                         <div class = "z8"><img src="../img/00011.jpg" alt=""><span class = "z81">小米智能硬件</span><span class="z82">&yen2999元</span></div>
+                                       
+                               
+                                        </div></a></li>
+                    </a>
+                    </li>
+                    <li class="z"><a href="" class="z1">服务</a></li>
+                    <li class="z"><a href="" class="z1">社区</a></li>
+
+                </ul>
+
+            </div>
+            <div class="diersan">
+
+                <table>
+                    <input type="text" class=diersanyi value="手机"><input type="button" class="diersaner" value="搜索">
+                </table>
+
+            </div>
+
+
+
+
+        </div>
+        <!-- 第二部分结束 -->
+
+
+        <!-- 第三部分 -->
+
+        <div class="disanyi">
+            <ul>
+                <li><a>手机 电话卡 <span>></span></a></li>
+                <li><a href="#">电视 盒子 <span>></span></a></li>
+                <li><a href="#">家电 插线板<span>></span></a></li>
+                <li><a href="#">出行 穿戴<span>></span></a></li>
+                <li> <a href="#">智能 路由器<span>></span></a></li>
+                <li><a href="#">电源 配件<span>></span></a></li>
+                <li><a href="#">健康 儿童<span>></span></a></li>
+                <li> <a href="#">耳机 音响<span>></span></a></li>
+                <li> <a href="#"> 生活 箱包<span>></span></a></li>
+            </ul>
+
+        </div>
+        <div class="disaner">
+            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/903f2b34653fcc55458b009f48e75cb5.jpg?w=2452&h=920" width="1005px" height="451px">
+
+        </div>
+        <!-- 第三部分结束 -->
+
+
+        <!-- 第四部分开始 -->
+
+        <div class="disi w wb">
+            <ul>
+                <li class="disiyi disiyiyi" style="margin-left: 0px;">
+                    <a href="#">
+                        <div class="disituyi">
+                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/82abdba456e8caaea5848a0cddce03db.png?w=48&h=48" width="70px" height="70px">
+                        </div><em class="disituyiyi">小米秒杀</em>
+                    </a>
+
+                    <a href="#">
+                        <div class="disituer">
+                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/806f2dfb2d27978e33fe3815d3851fa3.png?w=48&h=48" width="70px" height="70px">
+                        </div><em class="disituyier">企业团购</em>
+                    </a>
+
+                    <a href="#">
+                        <div class="disitusan">
+                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/eded6fa3b897a058163e2485532c4f10.png?w=48&h=48" width="70px" height="70px">
+                        </div><em class="disituyisan">f码通道</em>
+                    </a>
+                    <a href="#">
+                        <div class="disitusi">
+                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/43a3195efa6a3cc7662efed8e7abe8bf.png?w=48&h=48" width="70px" height="70px">
+                        </div><em class="disituyisi">米粉卡</em>
+                    </a>
+
+                    <a href="#">
+                        <div class="disituwu">
+                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/f4846bca6010a0deb9f85464409862af.png?w=48&h=48" width="70px" height="70px">
+                        </div><em class="disituyiwu">以旧换新</em>
+                    </a>
+
+                    <a href="#">
+                        <div class="disituliu">
+                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9a76d7636b08e0988efb4fc384ae497b.png?w=48&h=48" width="70px" height="70px">
+                        </div><em class="disituyiliu">话费充值</em>
+                    </a>
+
+                </li>
+                <li class="disiyi disiyier">
+                    <a href="">
+
+                        <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/35a2239e10e392af73b6b7a737a039d6.jpg?w=632&h=340" width="300px" height="200px">
+
+
+                    </a>
+                </li>
+                <li class="disiyi disiyisan">
+                    <a href=""> <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/50beb6e77e316ff0637d79ad1869572e.jpg?w=632&h=340" width="300px" height="200px"> </a>
+                </li>
+                <li class="disiyi disiyiai">
+                    <a href=""> <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/816a66edef10673b4768128b41804cae.jpg?w=632&h=340" width="300px" height="200px"> </a>
+                </li>
+            </ul>
+        </div>
+        <!-- 第四部分结束 -->
+        <!-- 中间部分结束 -->
+
+
+        <!-- 第五部分 -->
+        <!-- 背景颜色二 -->
+        <div class="wbyi beijingyanseer ">
+            <div class="diwu w">
+                小米闪购
+
+            </div>
+            <!-- 第五部分结束  -->
+
+            <!-- 第六部分开始 -->
+
+            <div class="diliu w">
+                <ul>
+                    <li class="diliutou" style="margin-left: 0px;">
+                        <div class="diliuyi">
+                            <span class="diliuziyi">14:00场</span> <span class="diliuzier"><img
+                                    src="data:img/jpg;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAA1CAYAAAAklDnhAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ%0AbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp%0Abj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6%0AeD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1%0AMTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo%0AdHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw%0AdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv%0AIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS%0AZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD%0AcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5j%0AZUlEPSJ4bXAuaWlkOjY4Q0ZFMkY5MTJFNzExRThCMkM4OEM1RTNBNjczQUVBIiB4bXBNTTpEb2N1%0AbWVudElEPSJ4bXAuZGlkOjY4Q0ZFMkZBMTJFNzExRThCMkM4OEM1RTNBNjczQUVBIj4gPHhtcE1N%0AOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NjhDRkUyRjcxMkU3MTFFOEIy%0AQzg4QzVFM0E2NzNBRUEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NjhDRkUyRjgxMkU3MTFF%0AOEIyQzg4QzVFM0E2NzNBRUEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94Onht%0AcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5oEyacAAACoklEQVR42sSYv0tbURTHX0LqD6T4g4pE%0AcHDoUOloBxVd/QFFEcQqWtrSKlKFmmAslopohzgIbv4FwUEE0clFujiIi+BSIbRQ0ooKRReRULHf%0AS48Qgu++c3/FAx+iyU3eJzf3nnPuC/1qavQ04zVY8szjCHRGNN9cBD6DSkOJKzAGzsOaH/AW1FuY%0AjRg4EH/oiJSCTxYk1sDK7T86Iu9BraHED/Au9wlVkYdg2lAiC/rBhYnIB/DIUOQj2M9/UkWkCsQN%0AJbbA8l0vqIhMgXIDiZ/gFbgxEakBEwYSf8Eg+OM3gCsyA8oMRETy25UN4IjUgVEDiW2wGDSIIzIL%0AijUljsFLv3WhIvKYFphOXNO6OOUMDhKZA7qFcQF85Q6WXeQpeKEpcULlvY8xthp8iwR8I93qLLb7%0AKnOsSPWNfhd6Bro99yHqTi9IhyWzEXIsIXbSG7Djt1jbQHsBZkMkyZRs13wpgIRoiJKy7dsBWh1L%0AbN5Vt3JFQrQ2XMYeGKBk5yvSI7aRQ4k0eA4uZZlVPM47lDgTZxd6lKb4AcqkLuKSZiIdVGsiVFNc%0AxDV9yT1Orekjoe+MDw4pHqwmaJewit66Ql0QaX+DOTaZe4DitAFZxQaaEynKnJ6KCDeaQAtj3A7V%0AkBtXIpwT3iFV06zqquaKPKEtKIsM6Mo/StoWiQeMvSCJjO4+54hEwTCjuTk0STgckUm6QxTY3LgU%0AKc+/jyFrblyKCIkKbnPjSkT8HDGV5saVyBAtVHZz40Ik7HNTRtrcuBARF2tQbW5ciCR0mhvbIs2E%0AcnNjWySh29zYFGnIK25KzY1Nkdziptzc2BKJUu7Qbm5sicQom2o3NzZEKqiu/DZpbmyIjIAHNBMZ%0A7x4iTALjhcgVQSIl3v87w5vePcY/AQYAFYR6skFSqBUAAAAASUVORK5CYII="
+                                    width="50px" height="70px
+                                    "></span>
+                            <span class="diliuzisan"> 本场已结束</span>
+                            <span class="diliuzisi">00:00:00</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="diliuer">
+                            <span class="diliutuyi"> <img
+                                    src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ec20453216dcd42f982cffe5fdbc3115.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+                                    width="240px
+                            "> </span> <span class="diliuziwu">米家互联网洗烘一体机 Pro 10kg</span>
+                            <span class="diliuziliu">2999元</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="diliuer">
+                            <span class="diliutuyi"> <img
+                                    src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b8c63a2024528fe5410ebe669b7d2407.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+                                    width="240px
+                            "> </span> <span class="diliuziwu">Redmi全自动波轮洗衣机1A 8kg</span>
+                            <span class="diliuziliu">2999元</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="diliuer">
+                            <span class="diliutuyi"> <img
+                                    src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cd2aa2dcad6440b469c22e27db9b6236.jpg?thumb=1&w=250&h=250&f=webp&q=90"
+                                    width="240px
+                            "> </span> <span class="diliuziwu">15.6" 四核i7 16G 独显 512G</span>
+                            <span class="diliuziliu">1999元</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="diliuer">
+                            <span class="diliutuyi"> <img
+                                    src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ef6b4e9b9151849b3b1fb1dbf069c6ed.jpg?thumb=1&w=250&h=250&f=webp&q=900"
+                                    width="240px
+                            "> </span> <span class="diliuziwu">小米全面屏电视E55A</span>
+                            <span class="diliuziliu">3999元</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- 第六部分结束 -->
+
+            <!-- 第七部分开始 -->
+            <div class="diqi w">
+                <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/bec26de77735b3939f21826cb7a8d9e8.jpg?thumb=1&w=1533&h=150&f=webp&q=90" width="1305px">
+            </div>
+
+
+            <!-- 背景颜色二 -->
+        </div>
+
+
+
+
+
+        <!-- 尾巴 -->
+    </div>
+
+</body>
